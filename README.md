@@ -15,7 +15,7 @@ Visualisation sur Airtable des résultats d'audience des radios sur le plan loca
 cp .env_example .env
 ```
 
-2. Créer une nouvelle base Airtable, simplement en dupliquant [celle-ci fournie en template](). Récupérer l'ID de votre base Airtable ainsi créée, via la documentation API de la base (cliquer sur le bouton "Help" en haut à droite de la base)
+2. Créer une nouvelle base Airtable, simplement en dupliquant [celle-ci fournie en template](https://airtable.com/shrFcmvJpmzmk3Tbs). Récupérer l'ID de votre base Airtable ainsi créée, via la documentation API de la base (cliquer sur le bouton "Help" en haut à droite de la base)
 
 2. Modifier le fichier de configuration ainsi créé (`.env`), selon vos paramètres personnels
 
