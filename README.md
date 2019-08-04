@@ -7,6 +7,22 @@ Visualisation sur Airtable des résultats d'audience des radios sur le plan loca
 * Disposer d'un compte [Airtable](https://airtable.com) (gratuit), et la [clé API](https://support.airtable.com/hc/en-us/articles/219046777-How-do-I-get-my-API-key-) associée
 * [Node.JS](https://nodejs.org/en/) installé 
 
+## Résultats 
+
+*(données floutées car réservées aux abonnés)*
+
+1. Il est ainsi possible d'avoir une visualisation en un coup d'oeil des résultats pour une radio en particulier (Vue `Visualisation pour une radio`, Filtre `Entité` --> écrire le nom de la radio)
+
+![Récapitulatif par radio](https://vocast.s3.eu-west-3.amazonaws.com/tech/r%C3%A9capitualtif+par+radio.png)
+
+2. Les résultats groupés par univers / zone et les options pour ordonner donnent rapidement les classements selon les critères d'audience désirés (AC, DEA, etc.) 
+
+![Exemple de groupement par univers et zone](https://vocast.s3.eu-west-3.amazonaws.com/tech/exemple+groupement+par+univers-zone.png)
+
+3. En jouant avec les filtres et mécanismes de tris, il est facil de comparer les performances selon des critères disparates
+
+![Crééer de multiples classements](https://vocast.s3.eu-west-3.amazonaws.com/tech/classements.png)
+
 ## Lancement 
 
 1. Créer un fichier de configuration, à partir de l'exemple
@@ -23,3 +39,14 @@ cp .env_example .env
 ```
 npm i && npm run start
 ```
+
+# Contact, support 
+
+Si vous avez besoin d'aide pour obtenir vos résultats sur Airtable, n'hésitez pas à [nous contacter](https://vocast.fr/contact) (contact@vocast.fr)
+
+Ceci est un projet à but non lucratif dans le cadre de [Vocast](https://vocast.fr).
+
+[Des Ondes Vocast](https://vocast.fr/desondes), c'est la radio d'hier, d'aujourd'hui et de demain, en un podcast ! Des archives qui ont marqué la bande FM aux discussions autour des futurs possibles du média, [Des Ondes Vocast](https://vocast.fr/desondes) est dédié aux passionnés de radio.
+
+
+
