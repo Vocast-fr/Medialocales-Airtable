@@ -9,9 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "airtable": "^0.7.0",
+    "airtable": "^0.7.2",
+    "cheerio": "^1.0.0-rc.3",
     "dotenv": "^8.0.0",
-    "node-xlsx": "^0.12.1"
+    "node-xlsx": "^0.12.1",
+    "sleep": "^6.3.0",
+    "superagent": "^5.3.1"
   },
   "devDependencies": {
     "eslint": "^6.1.0",

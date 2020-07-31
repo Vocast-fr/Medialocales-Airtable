@@ -62,3 +62,4 @@ typings/
 
 # exports from Mediametrie's Paprika UI
 *.xls
+*.xls#
