@@ -21,7 +21,7 @@ async function getCategoryFromAnnuaireRadio(radioname) {
 
   let categoryLabel
 
-  if (categCSA === 'A') categoryLabel = 'Radio privée associative (A)'
+  if (categCSA === 'A') categoryLabel = 'Radio associative (A)'
   else if (categCSA === 'B') categoryLabel = 'Radio privée locale (B)'
   else if (categCSA === 'C' || categCSA === 'D') {
     categoryLabel = 'Radio privée nationale (C, D)'
